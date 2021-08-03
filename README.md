@@ -1,2 +1,5 @@
 # PineDB
-A Database Management System that allows you to interact with databases for cross-platform(mobile &amp; Desktop) quickly and easily.
+A Database Management System that allows you to interact with databases for cross-platform(mobile &amp; Desktop) quickly and easily. PineDB is currently under development and is written in python for desktop platforms only. No command line configuration is required as with PineDB, databases can be created swiftly by using a high level programming language like Python. PineDB essentially creates a database folder which again contains folders( each called as a record ), and these records consists of the files that contains the actual data. A file called "structure-db.indexp" is also created in the root folder, which contains the information about the database that is necessary for PineDB to work with databases.
+
+## Understanding Hierarchy
+As explained above, PineDB uses a database hierarchy(DataBase => Records => data) for its designed mainly to manage big systems of databases. The original data is stored in files with the extension '.pdb'. Here is an example to understand this hierarchy:- In the database folder of a company created using PineDB, there are 5 records folder that represents five years ranging from 2015-2019. Each of the records contains the 150 PDB files
